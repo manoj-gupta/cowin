@@ -50,10 +50,20 @@ const Body = ({ Centers }) => {
                         {row.date}{" "}
                       </TableCell>
                       <TableCell align="left">
-                        <span className={classes.available}>{row.available_capacity}</span>
+                        {row.available_capacity > 0 &&
+                          <span className={classes.available}>{row.available_capacity}</span>
+                        }
+                        {row.available_capacity === 0 &&
+                          <span className={classes.unavailable}>{row.available_capacity}</span>
+                        }
                       </TableCell>
                       <TableCell align="left">
-                        <span className={classes.age}>{row.min_age_limit}+</span>
+                        {row.min_age_limit === 45 &&
+                          <span className={classes.age45}>{row.min_age_limit}+</span>
+                        }
+                        {row.min_age_limit === 18 &&
+                          <span className={classes.age18}>{row.min_age_limit}+</span>
+                        }
                       </TableCell>
                     </TableRow>
                   ))}

@@ -46,14 +46,28 @@ export const useStyles = makeStyles((theme) => ({
   },
   available: {
     color: "white",
-    backgroundColor: "#ffb300",
+    backgroundColor: "green",
     padding: "10px",
     borderRadius: "10px",
     fontSize: "16px",
   },
-  age: {
+  unavailable: {
+    color: "black",
+    backgroundColor: "red",
+    padding: "10px",
+    borderRadius: "10px",
+    fontSize: "16px",
+  },
+  age45: {
     color: "white",
     backgroundColor: "#8bc34a",
+    padding: "10px",
+    borderRadius: "10px",
+    fontSize: "16px",
+  },
+  age18: {
+    color: "white",
+    backgroundColor: "#ec407a",
     padding: "10px",
     borderRadius: "10px",
     fontSize: "16px",
