@@ -27,7 +27,7 @@ export const useStyles = makeStyles((theme) => ({
     marginLeft: "20px",
   },
   feeType: {
-    backgroundColor: "#20065f",
+    backgroundColor: "#ff8a80",
     color: "#ffffff",
     width: "120px",
     borderRadius: "60px",
@@ -46,14 +46,14 @@ export const useStyles = makeStyles((theme) => ({
   },
   available: {
     color: "white",
-    backgroundColor: "#ff6f62",
+    backgroundColor: "#ffb300",
     padding: "10px",
     borderRadius: "10px",
     fontSize: "16px",
   },
   age: {
     color: "white",
-    backgroundColor: "#14948b",
+    backgroundColor: "#8bc34a",
     padding: "10px",
     borderRadius: "10px",
     fontSize: "16px",
@@ -62,5 +62,9 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "start",
     marginTop: "16px",
     display: "flex",
+    color: "blue"
+  },
+  table: {
+    minWidth: 650,
   }
 }));

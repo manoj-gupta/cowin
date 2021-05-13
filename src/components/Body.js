@@ -35,7 +35,7 @@ const Body = ({ Centers }) => {
             </div>
             </CardContent>
             <TableContainer component={Paper}>
-              <Table aria-label="simple table">
+              <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                   <TableRow>
                     <TableCell>Date</TableCell>
