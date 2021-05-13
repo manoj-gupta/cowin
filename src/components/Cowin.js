@@ -41,7 +41,7 @@ const Cowin = () => {
       } else {
         setOpen(true);
         setType("info");
-        setMessage(`Cowin data not available for this ${pinCode}`);
+        setMessage(`Data not available for Pincode: ${pinCode}`);
       }
 
       setCenters(response.data.centers);
