@@ -71,7 +71,7 @@ const Cowin = () => {
           <TextField
             id="outlined-helperText"
             label="Enter Pincode"
-            // helperText="Click Submit to Get slot"
+            helperText="Click CHECK SLOTS to list slots"
             variant="outlined"
             fullWidth
             size="medium"
@@ -84,7 +84,7 @@ const Cowin = () => {
             color="secondary"
             onClick={getSlots}
           >
-            Get Slots
+            Check Slots
           </Button>
         </div>
       </div>
