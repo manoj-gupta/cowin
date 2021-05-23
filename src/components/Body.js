@@ -39,7 +39,7 @@ const Body = ({ Centers }) => {
                 <TableHead>
                   <TableRow>
                     <TableCell>Date</TableCell>
-                    <TableCell>Available Capacity</TableCell>
+                    <TableCell>Available Capacity (dose1, dose2)</TableCell>
                     <TableCell>Age</TableCell>
                   </TableRow>
                 </TableHead>
@@ -51,7 +51,9 @@ const Body = ({ Centers }) => {
                       </TableCell>
                       <TableCell align="left">
                         {row.available_capacity > 0 &&
-                          <span className={classes.available}>{row.available_capacity}</span>
+                          <span className={classes.available}>
+                          {row.available_capacity} ({row.available_capacity_dose1}, {row.available_capacity_dose2})
+                          </span>
                         }
                         {row.available_capacity === 0 &&
                           <span className={classes.unavailable}>{row.available_capacity}</span>
