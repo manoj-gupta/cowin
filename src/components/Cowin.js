@@ -70,7 +70,7 @@ const Cowin = () => {
         <div className={classes.textfield}>
           <TextField
             id="outlined-helperText"
-            label="Enter Pincode"
+            label="Pincode (e.g. 560102)"
             helperText="Click CHECK SLOTS to list slots"
             variant="outlined"
             fullWidth
