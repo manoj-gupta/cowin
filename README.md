@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It is available at https://github.com/manoj-gupta/cowin
+It is available at https://manoj-gupta.github.io/cowin
 
 ## Available Scripts
 
